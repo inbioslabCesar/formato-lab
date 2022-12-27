@@ -1,0 +1,36 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+	display: flex;
+}
+img{
+	width: 5rem;
+	height: 5rem;
+	
+}
+.contenedor{
+	width: 100%;
+	max-width: 80%;
+	display: flex;
+	justify-content:space-between;
+
+}
+.datos{
+display: flex;
+align-items: flex-end;
+justify-content: center;
+flex-direction: column;
+margin-top: 5rem;
+
+}
+input{
+	border-radius: 1rem;
+	font-size: 10px;
+}
+.datos-label{
+	margin-top: 0.5rem;
+}
+label{
+	font-size: 10px;
+}
